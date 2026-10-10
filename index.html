@@ -223,9 +223,9 @@ html.js .is-in .steps::before{scale:1 1}
 
 /* Philosophie */
 .philo{background:var(--ink);color:var(--paper)}
-html.js .philo{height:280vh}
-.philo__stick{display:flex;align-items:center;min-height:100vh;min-height:100dvh;padding-block:80px}
-html.js .philo__stick{position:sticky;top:0;height:100vh;height:100dvh}
+html.js .philo{height:auto}
+.philo__stick{display:flex;align-items:center;min-height:0;padding-block:80px}
+html.js .philo__stick{position:static;top:auto;height:auto}
 .philo__lines{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(38px,8vw,150px);line-height:.96;letter-spacing:.005em}
 .philo__lines span.l{display:block}
 .philo__lines .w{display:inline-block;overflow-wrap:anywhere;margin-right:.22em;transition:opacity .15s linear}
